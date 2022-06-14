@@ -1,0 +1,105 @@
+@import url(../css/fonts.css);
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    /* Theme colors */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* Gradient color */
+    --sky: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+
+    /* Theme font-family */
+    --Abel:'Abel', cursive;
+    --Amatic_SC:'Amatic_SC', cursive;
+    --Bebas_Neue:'Bebas_Neue', cursive;
+    --Cormorant_Garamond:'Cormorant_Garamond', cursive;
+    --Merienda:'Merienda', cursive;
+}
+
+/*----------------- Global Classes ----------------*/
+
+a {
+    text-decoration: none;
+    color: #3f4954;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #3f4954;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*----------------- Global Classes ----------------*/
+
+/*----------------- navbar --------------*/
+
+.nav { /*creates a collapsible navigation menu*/
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 40vh;
+    overflow: hidden;
+}
+
+.nav-menu {
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav-link {
+    padding: 1.6rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Bebas_Neue);
+    font-size: 1.1rem;
+
+}
+
+.nav-link:hover {
+    background-color: var(--midnight);
+}
+
+.nav-link:hover a {
+    color: var(--white);
+}
+
+.nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Bebas_Neue);
+    font-size: 1.6rem;
+}
+
+.nav.social {
+    padding: 1.4rem 0;
+}
+
+i {
+    padding: 0.2rem;
+}
+
+i:hover {
+    color: #a1c4cf;
+}
+
+/*----------------- navbar --------------*/

@@ -1,0 +1,29 @@
+/* font-family:Abel */
+@font-face {
+    font-family: Abel;
+    src: url("../fonts/Abel/Abel-Regular.ttf");
+}
+
+/* font-family:Amatic_SC */
+@font-face {
+    font-family: Amatic_SC;
+    src: url("../fonts/Amatic_SC/AmaticSC-Regular.ttf");
+}
+
+/* font-family:Bebas_Neue */
+@font-face {
+    font-family: Bebas_Neue;
+    src: url("../fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+/* font-family:Cormorant_Garamond */
+@font-face {
+    font-family: Coromorant_Garamond;
+    src: url("../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf");
+}
+
+/* font-family:Merienda */
+@font-face {
+    font-family: Merienda;
+    src: url("../fonts/Merienda/Merienda-Regular.ttf");
+}
