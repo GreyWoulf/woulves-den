@@ -1,5 +1,7 @@
 @import url(../css/fonts.css);
 
+/* <a href="https://www.vecteezy.com/free-vector/forest">Forest Vectors by Vecteezy</a> */
+
 html, body {
     margin: 0%;
     box-sizing: border-box;
@@ -52,13 +54,39 @@ ul {
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav-menu {
     justify-content: space-between;
 }
+
+.toggle-collapse {
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+
+.toggle-icons i {
+    font-size: 1.4rem;
+    color: var(--text-gray)
+}
+
+.collapse {
+    height: 230rem;
+}
+
 
 .nav-items {
     display: flex;
@@ -103,3 +131,18 @@ i:hover {
 }
 
 /*----------------- navbar --------------*/
+
+
+/*----------- Viewport less than or equal to 750px ------------*/
+
+@media only screen and (max-width: 750px) {
+    .nav-menu, .nav-items{
+        flex-direction: column;
+    }
+
+    .toggle-collapse {
+        display: initial;
+    }
+}
+
+/*------------Viewport less than or equal to 750px ------------ */
