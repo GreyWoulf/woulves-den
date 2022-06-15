@@ -8,4 +8,14 @@ $(function(){
         $nav.toggleClass('collapse');
     })
 
+    // Owl-Carousel for Blog
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: false,
+        nav: true,
+        navText: [$('.owl-nav-prev'), $('.owl-nav-next')]
+    });
+
 });

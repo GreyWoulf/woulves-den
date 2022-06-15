@@ -69,6 +69,14 @@ button.btn {
     cursor: pointer;
 }
 
+span {
+    font-family: var(--Abel);
+}
+
+.containter {
+    margin: 0.5vw;
+}
+
 /*----------------- Global Classes ----------------*/
 
 /*----------------- navbar --------------*/
@@ -190,6 +198,67 @@ button.btn:hover {
 }
 
 /*------------------- Site Title --------------------*/
+
+/*------------------ Blog Carousel ------------------*/
+
+.blog {
+    
+    background: url(../woulves-den/assets/Abract01.png) ;
+    /* background: no-repeat !important; */
+    background-position: right !important;
+    background-repeat: no-repeat;
+    height: 105vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+.blog-post {
+    padding-top: 6rem;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*.blog-content*/.blog-title {
+    padding: 2rem;
+}
+
+/*.blog-content*/.btn-blog {
+    padding: .7rem 2rem;
+    background: skyblue;
+    margin: .5rem;
+}
+
+.blog-content span {
+    display: block;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+button.owl-prev,
+button.owl-next {
+    color: var(--text-gray);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme.owl-nav[class*='owl']:hover {
+    background: transparent;
+    color: var(--text-gray);
+}
+
+/*------------------ Blog Carousel ------------------*/
 
 
 /*--------------- Main Content -------------*/
