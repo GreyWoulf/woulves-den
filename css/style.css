@@ -183,6 +183,12 @@ button.btn {
     margin: 1.8rem;
 }
 
+button.btn:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: var(--white);
+}
+
 /*------------------- Site Title --------------------*/
 
 
