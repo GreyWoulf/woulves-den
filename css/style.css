@@ -46,6 +46,29 @@ ul {
     list-style-type: none;
 }
 
+h1 {
+    font-family: var(--Merienda);
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: var(--Merienda);
+    font-size: 1.3rem;
+}
+
+h2 {
+   font-family: var(--Merienda); 
+}
+
+button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Merienda);
+    cursor: pointer;
+}
+
 /*----------------- Global Classes ----------------*/
 
 /*----------------- navbar --------------*/
@@ -131,6 +154,39 @@ i:hover {
 }
 
 /*----------------- navbar --------------*/
+
+/*--------------- Main Content -------------*/
+
+
+/*------------------- Site Title --------------------*/
+
+
+.site-title{
+    background: url('../woulves-den/assets/jungle-image.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white)
+}
+
+.site-title h1, h3 {
+    margin: 0.3rem;
+}
+
+button.btn {
+    margin: 1.8rem;
+}
+
+/*------------------- Site Title --------------------*/
+
+
+/*--------------- Main Content -------------*/
 
 
 /*----------- Viewport less than or equal to 750px ------------*/
