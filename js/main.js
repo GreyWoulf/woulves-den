@@ -18,4 +18,12 @@ $(function(){
         navText: [$('.owl-nav-prev'), $('.owl-nav-next')]
     });
 
-});
+    // scroll to top
+    $('.move-up span').click(function(){
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    })
+
+
+})
