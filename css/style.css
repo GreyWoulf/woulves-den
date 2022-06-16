@@ -373,7 +373,7 @@ button.btn:hover {
 
 .pagination a {
     padding: 0.6rem 0.9rem;
-    border-radius: 0.5rem;
+    border-radius: 5rem;
     margin: 0.3rem;
     font-family: var(--Bebas_Neue);
 }
@@ -445,7 +445,7 @@ button.btn:hover {
 }
 
 .newsletter {
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 
 .form-element {
@@ -466,6 +466,19 @@ button.btn:hover {
     margin: 1rem 0;
     background: var(--sky2);
 }
+
+.pop-tags {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tag {
+    background: var(--sky2);
+    padding: 0.4rem 1rem;
+    border-radius: 3rem;
+    margin: 0.4rem 0.6rem;
+}
+
 
 
 /*--------------------- Sidebar ---------------------*/
