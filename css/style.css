@@ -416,6 +416,33 @@ button.btn:hover {
     color: #0f0f0f;
 }
 
+.post-content {
+    padding: 1rem 0;
+}
+
+.popular-post h2 {
+   padding-top: 8rem;
+   font-family: var(--Bebas_Neue);
+   font-size: 2rem;
+}
+
+.popular-post>.post-content>.post-image>.post-info.flex-row {
+    padding: 0.4rem 0.1rem !important;
+    bottom: 0rem !important;
+    left: 0rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+
+.popular-post>.post-content>.post-image>.post-info.flex-row span {
+    font-size: 0.75rem;
+}
+
+.popular-post>.post-content>.post-title a {
+    font-size: 1rem !important;
+    color: #0f0f0f;
+}
+
 
 /*--------------------- Sidebar ---------------------*/
 
