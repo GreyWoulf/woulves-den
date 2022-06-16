@@ -365,7 +365,23 @@ button.btn:hover {
 
 }
 
+.pagination {
+    justify-content: center;
+    color: var(--text-gray);
+    margin: 4rem 0;
+}
 
+.pagination a {
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.5rem;
+    margin: 0.3rem;
+    font-family: var(--Bebas_Neue);
+}
+
+.pages {
+    background: var(--text-gray);
+    color: var(--white);
+}
 
 /*------------------ Site Content -------------------*/
 
