@@ -1,3 +1,19 @@
+const responsive = {
+    0: {
+        items: 1
+    },
+    320: {
+        items: 1
+    },
+    640: {
+        items: 2
+    },
+    960: {
+        items: 3
+    }
+}
+
+
 $(function(){
 
     $nav = $('.nav');
@@ -15,7 +31,8 @@ $(function(){
         autoplayTimeout: 3000,
         dots: false,
         nav: true,
-        navText: [$('.owl-nav-prev'), $('.owl-nav-next')]
+        navText: [$('.owl-nav-prev'), $('.owl-nav-next')],
+        responsive: responsive
     });
 
     // scroll to top
